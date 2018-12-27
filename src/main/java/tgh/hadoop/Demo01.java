@@ -21,6 +21,7 @@ public class Demo01 {
 
         fs.copyFromLocalFile(new Path("D:\\user\\89006376\\我的文档\\MeetNowInstall.log"),new Path("/java_test"));
 
+
         System.out.println("HDFS上传文件成功");
     }
 }
